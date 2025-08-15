@@ -1,1 +1,4 @@
 data/
+*.env
+chroma_local/
+setup

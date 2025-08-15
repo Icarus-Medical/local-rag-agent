@@ -168,6 +168,7 @@ def build_prompt(question: str, hits: list[dict], product: str | None = None):
     product_rule = f"Only answer about the product '{product}'. Ignore other products.\n" if product else ""
     system = (
         "You are a helpful internal assistant. Use ONLY the provided context. "
+        "If the user is not asking a question, say that you only answer product-related queries"
         "Do not cite the selected sources. If the answer isn't in contect, say you don't know."
         "Do not mention documents without relevant information."        
     
