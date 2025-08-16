@@ -1,0 +1,26 @@
+Intent ID: ADONIS_UNLOADING_MECHANICS
+Title: How the Adonis brace unloads the medial or lateral compartment of the knee
+Canonical Answer: The brace applies a corrective three-point pressure system that shifts the joint load away from the affected compartment. For medial unloading, it creates a valgus force by anchoring above and below the knee and applying outward pressure on the lateral side. For lateral unloading, it reverses that with a varus force. This redistributes the load toward the healthier side of the joint, reducing compressive forces on the damaged cartilage and alleviating pain during weight-bearing.
+Trigger Examples:
+How does the Adonis brace unload the knee?
+How does it work to reduce pressure in the medial compartment?
+How does it shift load away from the lateral compartment?
+What’s the mechanical principle behind the Adonis brace?
+
+Intent ID: ADONIS_UNLOADING_ADJUSTMENT
+Title: Adjusting unloading force for different patients or conditions
+Canonical Answer: Yes, the amount of unloading can be adjusted by modifying the strap tension and, in some designs, by changing the hinge angle or using modular inserts. By tightening or loosening the upper and lower straps, you can increase or decrease the corrective force applied across the knee joint. This allows clinicians to fine-tune the unloading effect based on patient size, severity of osteoarthritis, or comfort preferences.
+Trigger Examples:
+Can the unloading force on Adonis be adjusted?
+How to make Adonis unload more or less?
+How do you change the corrective force for a patient?
+Adjusting Adonis brace for osteoarthritis severity
+
+Intent ID: ADONIS_GOOD_SCAN
+Title: What makes a good scan for an Adonis brace order
+Canonical Answer: A good scan is accurate, clear, and shows all anatomical landmarks. The limb should be in the correct position, without rotation or movement, to ensure proper alignment. The scan must capture the full area needed for the brace, both above and below the joint, with no missing data or distortion. Lighting and scanner calibration should be optimized to avoid glare or shadows. The final scan should be clean, with smooth surfaces, no artifacts, and exported in the correct file format with proper scale and orientation.
+Trigger Examples:
+What does a good scan look like for Adonis?
+How do I make sure my scan is accurate?
+Scan requirements for Adonis brace order
+Best practices for scanning the limb

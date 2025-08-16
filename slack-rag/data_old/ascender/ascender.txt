@@ -1,0 +1,72 @@
+Intent ID: ASCENDER_KO_BRACE_HEIGHT
+Title: Standard brace height for Ascender KO
+Canonical Answer: 8.5" above the knee and 7.5" below the knee.
+Trigger Examples:
+What’s the brace height for Ascender KO?
+Standard height above and below knee?
+KO dimensions for top and bottom?
+
+Intent ID: ASCENDER_KO_CUSTOM_ENGRAVING
+Title: Custom engravings and logos
+Canonical Answer: We can engrave any text, with the patient’s last name as standard. Custom logos are available with an upcharge and a provided image.
+Trigger Examples:
+Can you engrave custom text on Ascender?
+Do you offer logo engraving?
+Add patient’s name to KO brace?
+
+Intent ID: ASCENDER_KO_VARUS_VALGUS
+Title: Varus and valgus correction capability
+Canonical Answer: Braces are designed to neutral alignment. We can build in varus or valgus correction to a requested degree, or we can use our own correction calculation.
+Trigger Examples:
+Can you make KO brace with varus correction?
+How about valgus correction in Ascender?
+Adjust alignment for KO brace?
+
+Intent ID: ASCENDER_KO_POSTERIOR_CUFF
+Title: Posterior calf cuffs availability
+Canonical Answer: Posterior calf cuffs can be used only as an approved special request and with an upcharge.
+Trigger Examples:
+Can Ascender KO have a posterior calf cuff?
+Do you offer back calf cuff?
+Posterior cuff option for KO brace?
+
+Intent ID: ASCENDER_KO_SCAN_REQUIREMENTS
+Title: Scan requirements for Ascender KO
+Canonical Answer: A scan is good enough if it clearly includes the knee center with at least 270 degrees of coverage, making the condyles clearly visible, and extends 8 inches above the knee and 7 inches below the knee. If any of these requirements are not met, get another scan.
+Trigger Examples:
+Is this KO scan good enough?
+How much coverage is needed in scan?
+Scan criteria for Ascender KO?
+
+Intent ID: ASCENDER_KO_SHORTEN_BRACE
+Title: Shortening the brace
+Canonical Answer: Yes, we can shorten the top and bottom frame by 1” each without changing the strapping system. For requests greater than 1” shortening, the engineering team must confirm design feasibility.
+Trigger Examples:
+Can you shorten Ascender KO?
+Reduce brace height by 1 inch?
+Custom short KO brace request?
+
+Intent ID: ASCENDER_KO_LENGTHEN_BRACE
+Title: Increasing brace length
+Canonical Answer: Yes, we can increase the length of the brace by 2” on the top and bottom frame; however, there are strength and durability downsides to this design change.
+Trigger Examples:
+Can you make KO brace taller?
+Lengthen brace frame by 2 inches?
+Increase top and bottom frame length?
+
+Intent ID: ASCENDER_KO_CENTRALIZED_DIAL
+Title: Centralizing the dial on the brace
+Canonical Answer: Yes, but this requires an additional design charge as it significantly increases design time.
+Trigger Examples:
+Can the KO brace dial be centered?
+Put dial in middle of Ascender KO?
+Custom dial position for KO brace?
+
+Intent ID: ASCENDER_KO_HIGH_BMI
+Title: Accommodating high BMI patients
+Canonical Answer: We will create a rigid frame with thicker cross-sectional area to minimize the risk of breakage, and we will shorten the top frame according to height and weight.
+Trigger Examples:
+KO brace for high BMI patient?
+Reinforce Ascender for heavy patient?
+Adjust KO brace for tall and heavy user?
+

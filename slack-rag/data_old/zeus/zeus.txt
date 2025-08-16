@@ -1,0 +1,56 @@
+Intent ID: KAFO_SCAN_MISSING_FOOT
+Title: Hercules KAFO: Scan missing foot/ankle
+Canonical Answer: Yes, only if we have a KC to floor measurement and the scan covers a majority of the tibia below the knee.
+Trigger Examples:
+scan doesn’t include foot — can we still make Hercules KAFO?
+missing ankle in scan okay for Hercules order?
+partial lower leg scan acceptable for Hercules KAFO?
+Hercules KAFO scan incomplete at foot area
+
+Intent ID: KAFO_NO_KC_MEAS
+Title: KAFO without KC-to-floor measurement
+Canonical Answer: Yes, only if the scan extends cleanly to the bottom of the foot and the clinic accepts liability for any reprint due to KC-to-floor misalignment.
+Trigger Examples:
+no KC to floor measurement — can we proceed with KAFO?
+missing KC-floor number for Hercules order
+forgot KC-floor, but scan shows entire foot
+
+Intent ID: KAFO_POSTERIOR_THIGH_CUFF
+Title: Posterior thigh cuff on Zeus or Hercules patient
+Canonical Answer: No.
+Trigger Examples:
+Can Zeus have a posterior thigh cuff?
+Hercules brace with posterior thigh cuff possible?
+
+Intent ID: KAFO_ASCENDER_OVER_AFO
+Title: Fitting Ascender over an AFO
+Canonical Answer: What you are likely looking for is a Hercules, which is a KAFO, or a knee brace connected to an AFO.
+Trigger Examples:
+Can I fit Ascender over an existing AFO?
+Will Ascender work with my AFO?
+
+
+Intent ID: KAFO_CUSTOM_AFO_SCAN_REQUIREMENT
+Title: Need to ship custom AFO to HQ for KAFO build?
+Canonical Answer: No. However, we require a good scan of the AFO either on the patient or on its own (or both). If you want the AFO to be detachable from the KO, we require an unobstructed scan of the cuff of the AFO, with straps moved away from the peg attachment location. This approach requires the clinician to attach the AFO themselves.
+Trigger Examples:
+Do you need the physical AFO for KAFO?
+Can I send a scan instead of shipping the AFO?
+
+Intent ID: THRIVE_AFO_HIGH_BMI
+Title: High BMI / short patient fit into Thrive AFO?
+Canonical Answer: Except for extreme cases, yes. If you are worried about fit, consider recommending a posterior AFO over an anterior AFO, as they are more flexible and can expand to fit the patient’s leg.
+Trigger Examples:
+ Can high BMI patients use Thrive AFO?
+ Short patient — will Thrive AFO fit?
+
+Intent ID: KAFO_HEIGHT_WEIGHT_REQUIREMENT
+Title: Why height and weight required for KAFO order
+Canonical Answer: The patient’s height and weight are required to ensure the brace height is correct and doesn’t sit too high on their leg.
+Trigger Examples:
+Why do you need height and weight for KAFO?
+KAFO order form asks for height/weight — why?
+
+
+
+

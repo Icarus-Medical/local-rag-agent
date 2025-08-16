@@ -5,11 +5,15 @@ import httpx
 import chromadb
 import fitz  # PyMuPDF
 from pathlib import Path
+try:
+    import yaml
+except Exception:
+    yaml = None
 
 # ---------- Config (env-aware, good defaults for non-Docker) ----------
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434")
 GEN_MODEL   = os.getenv("GEN_MODEL",   "llama3:instruct")      # you have this
-EMBED_MODEL = os.getenv("EMBED_MODEL", "mxbai-embed-large")    # pick a real embedding model
+EMBED_MODEL = os.getenv("EMBED_MODEL", "nomic-embed-text:latest")    # pick a real embedding model
 DATA_DIR    = Path(os.getenv("DATA_DIR", Path(__file__).resolve().parents[1] / "data"))
 CHROMA_DIR  = os.getenv("CHROMA_DIR", str(Path(__file__).resolve().parents[1] / "chroma_local"))
 CHUNK_SIZE = 1400
@@ -21,6 +25,32 @@ os.environ.setdefault("CHROMA_TELEMETRY_IMPLEMENTATION", "none")
 
 client = chromadb.PersistentClient(path=CHROMA_DIR)
 collection = client.get_or_create_collection(name="docs", metadata={"hnsw:space": "cosine"})
+
+# Load product aliases from data/shared/product_aliases.yaml (optional)
+PRODUCT_ALIASES_PATH = DATA_DIR / "shared" / "product_aliases.yaml"
+try:
+    if yaml and PRODUCT_ALIASES_PATH.exists():
+        with PRODUCT_ALIASES_PATH.open("r", encoding="utf-8") as f:
+            _raw = yaml.safe_load(f) or {}
+            PRODUCT_ALIASES = {k.lower(): [a.lower() for a in v] for k, v in _raw.items()}
+    else:
+        PRODUCT_ALIASES = {}
+except Exception:
+    PRODUCT_ALIASES = {}
+
+def canonicalize_product(name: str | None) -> str | None:
+    """Return canonical product name (lowercase) if found in aliases, else normalized input or None."""
+    if not name:
+        return None
+    n = name.strip().lower()
+    if not PRODUCT_ALIASES:
+        return n
+    if n in PRODUCT_ALIASES:
+        return n
+    for canon, aliases in PRODUCT_ALIASES.items():
+        if n == canon or n in aliases:
+            return canon
+    return n
 
 # ---------- Utilities ----------
 def _clean_text(s: str) -> str:
@@ -65,8 +95,8 @@ class Ollama:
 
         payloads = [
             # Newer API shapes
-            {"model": EMBED_MODEL, "input": txt},
-            {"model": EMBED_MODEL, "input": [txt]},
+            #{"model": EMBED_MODEL, "input": txt},
+            #{"model": EMBED_MODEL, "input": [txt]},
             # Legacy API shape (your server accepts this)
             {"model": EMBED_MODEL, "prompt": txt},
         ]
@@ -112,12 +142,17 @@ ollama = Ollama()
 async def add_documents(paths: list[Path]) -> dict:
     added = 0
     for path in paths:
+        # skip unsupported file types quickly
+        if path.suffix.lower() not in SUPPORTED_EXTS:
+            continue
+
         text = _read_text(path)
         chunks = chunk_text(text)
         if not chunks:
             continue
 
         product = _infer_product_from_path(path)  # << detect once per file
+        product = canonicalize_product(product)
 
         ids, docs, metas, embs = [], [], [], []
         for i, ch in enumerate(chunks):
@@ -140,8 +175,14 @@ async def add_documents(paths: list[Path]) -> dict:
 
 async def query(q: str, k=5, product: str | None = None) -> dict:
     q_emb = await ollama.embed(q)
-    where = {"product": product.lower()} if product else None
-    res = collection.query(query_embeddings=[q_emb], n_results=k)
+    # allow alias/canonical product names
+    product = canonicalize_product(product)
+    where = {"product": product} if product else None
+    # pass metadata filter to narrow the search and speed it up
+    if where:
+        res = collection.query(query_embeddings=[q_emb], n_results=k, where=where)
+    else:
+        res = collection.query(query_embeddings=[q_emb], n_results=k)
     docs = res.get("documents", [[]])[0]
     metas = res.get("metadatas", [[]])[0]
     ids   = res.get("ids", [[]])[0]

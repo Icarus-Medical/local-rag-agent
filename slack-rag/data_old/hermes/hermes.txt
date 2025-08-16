@@ -1,0 +1,81 @@
+Intent ID: HERMES_AFO_CAST_REQUIRED
+Title: Do I need a cast for an AFO?
+Canonical Answer: Yes, unless the order is for the VA, in which case we will accept high-quality scans.
+Trigger Examples:
+Do I need a cast for Hermes AFO?
+Will you accept a scan instead of a cast?
+AFO order without cast — possible?
+
+Intent ID: HERMES_AFO_COMPOSITE_SCANS
+Title: Compositing two incomplete scans into one complete scan
+Canonical Answer: Yes, but it takes a very long time and can be inaccurate, so we don’t do it.
+Trigger Examples:
+Can you merge two partial scans for an AFO?
+Possible to combine incomplete scans?
+Can two scans be stitched together for Hermes AFO?
+
+Intent ID: HERMES_AFO_MIN_HEIGHT
+Title: Shortest brace height we can make
+Canonical Answer: 11.5”.
+Trigger Examples:
+What’s the minimum height for Hermes AFO?
+Shortest brace you can make?
+Lowest possible AFO height?
+
+Intent ID: HERMES_AFO_UNSURE_REQUEST
+Title: What to do if clinician asks for something we might not do
+Canonical Answer: Call an engineer. Even if the answer is “no,” we love to hear about the clinician’s needs for future products, and we might be able to solve their problem in other ways.
+Trigger Examples:
+Clinician requested something unusual — what now?
+Not sure if we can make what clinician wants — who to ask?
+Request outside standard AFO options — how to proceed?
+
+Intent ID: HERMES_AFO_KEY_AREAS
+Title: Most important anatomical areas to cast or scan for AFO
+Canonical Answer: The entire calf, back of the ankle and heel, and both sides of the foot.
+Trigger Examples:
+What areas must be captured in AFO scan?
+Which anatomy should I scan for Hermes AFO?
+Important parts to cast for Hermes brace?
+
+Intent ID: HERMES_AFO_REQUIRED_MEASUREMENTS
+Title: Measurements necessary for an AFO
+Canonical Answer: Weight. Everything else can be collected from the scan.
+Trigger Examples:
+What measurements do you need for Hermes AFO?
+Do you need height for AFO order?
+Only need weight for AFO?
+
+Intent ID: HERMES_AFO_OVERRIDE_DIMENSIONS
+Title: Clinician wants to specify brace dimensions (footplate length, hinge height, brace height, etc.)
+Canonical Answer: Collect their request and document it, clearly stating that the clinician specifically requested these dimensions. We are happy to override a scan or cast if the clinician asks us to.
+Trigger Examples:
+Can clinician specify footplate length?
+What if they request hinge height?
+Override scan measurements for Hermes AFO?
+
+Intent ID: HERMES_AFO_FOOTPLATE_THICKNESS
+Title: Thickness of the footplate
+Canonical Answer: 0.1”, except where it gets closer to the malleolus and thickens.
+Trigger Examples:
+How thick is Hermes AFO footplate?
+Footplate thickness?
+AFO base thickness near malleolus?
+
+Intent ID: HERMES_AFO_SHOE_USE
+Title: Is the AFO worn inside a shoe?
+Canonical Answer: Yes, although we recommend removing any sole padding or inserts and loosening the laces to make room.
+Trigger Examples:
+Can Hermes AFO be worn in shoes?
+Wearing AFO inside footwear?
+Tips for fitting AFO in a shoe?
+
+Intent ID: HERMES_AFO_SABOLICH_TRIM
+Title: Do we offer Sabolich trim lines at the ankle?
+Canonical Answer: No, but the default Hermes already offers support and cushioning near the location of a Sabolich trim line.
+Trigger Examples:
+Do you have Sabolich trim line on Hermes AFO?
+Sabolich trim available for ankle?
+Trim style options for Hermes AFO?
+
+
