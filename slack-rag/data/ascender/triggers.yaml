@@ -1,0 +1,53 @@
+Intent ID: ASCENDER_KO_BRACE_HEIGHT
+Trigger Examples:
+  - What’s the brace height for Ascender KO?
+  - Standard height above and below knee?
+  - KO dimensions for top and bottom?
+
+Intent ID: ASCENDER_KO_CUSTOM_ENGRAVING
+Trigger Examples:
+  - Can you engrave custom text on Ascender?
+  - Do you offer logo engraving?
+  - Add patient’s name to KO brace?
+
+Intent ID: ASCENDER_KO_VARUS_VALGUS
+Trigger Examples:
+  - Can you make KO brace with varus correction?
+  - How about valgus correction in Ascender?
+  - Adjust alignment for KO brace?
+
+Intent ID: ASCENDER_KO_POSTERIOR_CUFF
+Trigger Examples:
+  - Can Ascender KO have a posterior calf cuff?
+  - Do you offer back calf cuff?
+  - Posterior cuff option for KO brace?
+
+Intent ID: ASCENDER_KO_SCAN_REQUIREMENTS
+Trigger Examples:
+  - Is this KO scan good enough?
+  - How much coverage is needed in scan?
+  - Scan criteria for Ascender KO?
+
+Intent ID: ASCENDER_KO_SHORTEN_BRACE
+Trigger Examples:
+  - Can you shorten Ascender KO?
+  - Reduce brace height by 1 inch?
+  - Custom short KO brace request?
+
+Intent ID: ASCENDER_KO_LENGTHEN_BRACE
+Trigger Examples:
+  - Can you make KO brace taller?
+  - Lengthen brace frame by 2 inches?
+  - Increase top and bottom frame length?
+
+Intent ID: ASCENDER_KO_CENTRALIZED_DIAL
+Trigger Examples:
+  - Can the KO brace dial be centered?
+  - Put dial in middle of Ascender KO?
+  - Custom dial position for KO brace?
+
+Intent ID: ASCENDER_KO_HIGH_BMI
+Trigger Examples:
+  - KO brace for high BMI patient?
+  - Reinforce Ascender for heavy patient?
+  - Adjust KO brace for tall and heavy user?

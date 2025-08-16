@@ -1,0 +1,19 @@
+product_detection:
+  - pattern: "adonis brace"
+    product: "adonis"
+  - pattern: "ascender brace"
+    product: "ascender"
+  - pattern: "hermes afo"
+    product: "hermes"
+  - pattern: "zeus kafo"
+    product: "zeus"
+
+normalization_rules:
+  - rule: "lowercase"
+    description: "Convert all user input to lowercase to ensure uniformity."
+  - rule: "remove_punctuation"
+    description: "Strip punctuation from user input to focus on keywords."
+  - rule: "expand_contractions"
+    description: "Convert contractions (e.g., 'can't' to 'cannot') for better understanding."
+  - rule: "replace_synonyms"
+    description: "Substitute synonyms with standard terms to improve matching accuracy."

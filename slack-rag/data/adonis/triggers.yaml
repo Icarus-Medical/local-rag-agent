@@ -1,0 +1,20 @@
+Intent: ADONIS_UNLOADING_MECHANICS
+Triggers:
+  - How does the Adonis brace unload the knee?
+  - How does it work to reduce pressure in the medial compartment?
+  - How does it shift load away from the lateral compartment?
+  - What’s the mechanical principle behind the Adonis brace?
+
+Intent: ADONIS_UNLOADING_ADJUSTMENT
+Triggers:
+  - Can the unloading force on Adonis be adjusted?
+  - How to make Adonis unload more or less?
+  - How do you change the corrective force for a patient?
+  - Adjusting Adonis brace for osteoarthritis severity
+
+Intent: ADONIS_GOOD_SCAN
+Triggers:
+  - What does a good scan look like for Adonis?
+  - How do I make sure my scan is accurate?
+  - Scan requirements for Adonis brace order?
+  - Best practices for scanning the limb

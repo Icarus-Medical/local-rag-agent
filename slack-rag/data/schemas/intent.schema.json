@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "intent_id": {
+      "type": "string",
+      "description": "Unique identifier for the intent."
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the intent."
+    },
+    "canonical_answer": {
+      "type": "string",
+      "description": "The definitive answer for the intent."
+    },
+    "trigger_examples": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Examples of user queries that can trigger this intent."
+    }
+  },
+  "required": ["intent_id", "title", "canonical_answer", "trigger_examples"],
+  "additionalProperties": false
+}

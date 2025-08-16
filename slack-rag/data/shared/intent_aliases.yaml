@@ -1,0 +1,117 @@
+intent_aliases:
+  ADONIS_UNLOADING_MECHANICS:
+    - unloading mechanics of Adonis brace
+    - how Adonis brace unloads the knee
+    - Adonis brace unloading
+  ADONIS_UNLOADING_ADJUSTMENT:
+    - adjusting unloading force
+    - modify Adonis unloading
+    - change unloading force for Adonis
+  ADONIS_GOOD_SCAN:
+    - good scan for Adonis
+    - requirements for Adonis scan
+    - what makes a good scan for Adonis
+  ASCENDER_KO_BRACE_HEIGHT:
+    - brace height for Ascender KO
+    - standard height for Ascender KO
+    - Ascender KO dimensions
+  ASCENDER_KO_CUSTOM_ENGRAVING:
+    - custom engraving on Ascender
+    - logo engraving for Ascender
+    - add name to Ascender KO
+  ASCENDER_KO_VARUS_VALGUS:
+    - varus valgus correction in Ascender
+    - Ascender KO alignment adjustment
+    - varus or valgus correction for KO brace
+  ASCENDER_KO_POSTERIOR_CUFF:
+    - posterior calf cuff for Ascender
+    - Ascender KO with posterior cuff
+    - back calf cuff option for Ascender
+  ASCENDER_KO_SCAN_REQUIREMENTS:
+    - scan requirements for Ascender KO
+    - what coverage is needed for Ascender scan
+    - Ascender KO scan criteria
+  ASCENDER_KO_SHORTEN_BRACE:
+    - shorten Ascender KO
+    - reduce height of Ascender KO
+    - custom short KO brace request
+  ASCENDER_KO_LENGTHEN_BRACE:
+    - lengthen Ascender KO
+    - increase height of Ascender KO
+    - Ascender KO frame length adjustment
+  ASCENDER_KO_CENTRALIZED_DIAL:
+    - center dial on Ascender KO
+    - custom dial position for Ascender
+    - dial adjustment for KO brace
+  ASCENDER_KO_HIGH_BMI:
+    - Ascender KO for high BMI patients
+    - accommodate heavy patients with Ascender
+    - adjust Ascender for tall and heavy users
+  HERMES_AFO_CAST_REQUIRED:
+    - cast requirement for Hermes AFO
+    - do I need a cast for Hermes AFO?
+    - AFO order without cast
+  HERMES_AFO_COMPOSITE_SCANS:
+    - merge two scans for Hermes AFO
+    - combine incomplete scans for AFO
+    - stitching scans for Hermes AFO
+  HERMES_AFO_MIN_HEIGHT:
+    - minimum height for Hermes AFO
+    - shortest AFO you can make
+    - lowest possible height for Hermes AFO
+  HERMES_AFO_UNSURE_REQUEST:
+    - clinician request outside standard AFO options
+    - what to do if clinician asks for something unusual
+    - not sure if we can make what clinician wants
+  HERMES_AFO_KEY_AREAS:
+    - important areas to scan for Hermes AFO
+    - key anatomical areas for AFO
+    - what to capture in AFO scan
+  HERMES_AFO_REQUIRED_MEASUREMENTS:
+    - measurements needed for Hermes AFO
+    - do you need height for AFO order?
+    - only need weight for AFO?
+  HERMES_AFO_OVERRIDE_DIMENSIONS:
+    - clinician specifies brace dimensions
+    - override scan measurements for Hermes AFO
+    - can clinician request footplate length?
+  HERMES_AFO_FOOTPLATE_THICKNESS:
+    - thickness of Hermes AFO footplate
+    - how thick is the footplate?
+    - AFO base thickness near malleolus?
+  HERMES_AFO_SHOE_USE:
+    - AFO worn inside a shoe?
+    - tips for fitting AFO in footwear
+    - can Hermes AFO be worn in shoes?
+  HERMES_AFO_SABOLICH_TRIM:
+    - Sabolich trim line on Hermes AFO
+    - do you have Sabolich trim for AFO?
+    - trim style options for Hermes AFO
+  KAFO_SCAN_MISSING_FOOT:
+    - scan missing foot for Hercules KAFO
+    - incomplete scan for Hercules KAFO
+    - can we still make Hercules KAFO without foot?
+  KAFO_NO_KC_MEAS:
+    - KAFO without KC-to-floor measurement
+    - missing KC-to-floor number for Hercules order
+    - can we proceed with KAFO without KC measurement?
+  KAFO_POSTERIOR_THIGH_CUFF:
+    - posterior thigh cuff for Zeus
+    - can Zeus have a posterior thigh cuff?
+    - Hercules brace with posterior thigh cuff?
+  KAFO_ASCENDER_OVER_AFO:
+    - fitting Ascender over an AFO
+    - can I fit Ascender over my AFO?
+    - will Ascender work with my AFO?
+  KAFO_CUSTOM_AFO_SCAN_REQUIREMENT:
+    - need to ship custom AFO for KAFO build?
+    - do you need the physical AFO for KAFO?
+    - can I send a scan instead of shipping the AFO?
+  THRIVE_AFO_HIGH_BMI:
+    - high BMI patients using Thrive AFO
+    - will Thrive AFO fit short patient?
+    - accommodate high BMI in Thrive AFO?
+  KAFO_HEIGHT_WEIGHT_REQUIREMENT:
+    - height and weight required for KAFO order
+    - why do you need height and weight for KAFO?
+    - KAFO order form asks for height/weight — why?
